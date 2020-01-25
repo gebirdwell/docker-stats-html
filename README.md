@@ -5,6 +5,7 @@ I have a few docker servers in Lightsail and I haven't found an easy way to moni
 
 1. Upload the script to your docker HOST server.
 2. Upload the CSS to the docker volume & folder you are going to generate the html in.
-2. Change the paths to generate the html page into the same docker volume.
-3. Set the script to run every X using crontab.
-4. Boom, you get a webpages of server stats in a container.
+3. Change the paths to generate the html page into the same docker volume.
+4. Set the script to executable on the HOST
+5. Set the script to run every X using crontab on the HOST.
+6. Boom, you get a webpages of server stats in a container.
